@@ -47,9 +47,6 @@
 
 #### 非引用式链接，内嵌式链接
 
-***编辑写法：***
-
-    [佛学视频](http://www.fxsp.org/)
 - 外部链接：[佛学视频](http://www.fxsp.org/)
 - 内部链接1，链接仓库其他的文件：[README](README.mkd)
 - 内部链接2，链接本文档的其他部分：[代码块](retext-stu-2-1789.mkd#7.代码块)
@@ -68,18 +65,10 @@
 
     ![alt](url text)，alt和text可以缺省
 
-    ![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
-    ![zhaojing](images/top-1485165584.jpg)
-
-- 外部图片，即远程其他主机的图片：![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
+- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
 - 本地图片，即本地自己主机的图片：![zhaojing](images/top-1485165584.jpg)
 
 #### 引用式链接
-
-***编辑写法：***
-
-    ![zhaojing][pic_remote]
-    ![zhaojing][pic_local]
 
 - 外部图片，即远程其他主机的图片：![zhaojing][pic_remote]
 - 本地图片，即本地自己主机的图片：![zhaojing][pic_local]
@@ -109,12 +98,12 @@
 
     ***编辑写法：***
     
-    ```javascript
+    \`\`\`\javascript
 
     var a=999;  
     console.log(a);
     
-    ```
+    \`\`\`
 
 ```javascript
 
@@ -157,20 +146,12 @@ ___
 
 ### 10.表格，这个很有用
 
-***编辑写法：***
 
-```javascript
 |表头1默认靠左|表头2居中|表头3靠右|
-|------------|:---------------:|------------:|
+|------------|:---------:|------------:|
 |律|经|论|
 |弘一法师|佛说大乘无量寿庄严清净平等觉经|大智度论|
-|[佛学视频]|[zhaojing_pic]||
-```
-|表头1默认靠左|表头2居中|表头3靠右|
-|------------|:---------------:|------------:|
-|律|经|论|
-|弘一法师|佛说大乘无量寿庄严清净平等觉经|大智度论|
-|[佛学视频]|[zhaojing_pic]||
+|[佛学视频]|[zhaojing]|[README]|
 
 ### 11.GFM，GitHub Flvored MarkDown，GitHub特有MarkDown样式
 
@@ -195,7 +176,7 @@ task
 
     :emoji code:
 
-:emoji code:
+:snake:
 
 ## 总结进阶
 ### 13.混合强调样式
@@ -229,21 +210,12 @@ task
 
 图片链接
 
-    [![pic_remote]][zhaojing]
+[![pic_remote]][zhaojing]
 
 ### 15.引用链接的问题
 
 基本引用链接的用法：
 
-```javascript
-good：  
-[照镜人][zhaojing]  
-[抑郁之家][zhaojing]
-
-low:  
-[照镜人](http:zhaojing.ren)  
-[抑郁之家](http:zhaojing.ren)
-```
 good：  
 [照镜人][zhaojing]  
 [抑郁之家][zhaojing]
@@ -257,18 +229,6 @@ low:
 
 问题1：如何打断
 
-```javascript
-1. item
-    1. item
-    2. item
-2. item
-
-这里加段落，就可以打断了。
-
-3. item
-4. item
-```
-
 1. item
     1. item
     2. item
@@ -281,18 +241,6 @@ low:
 
 问题2：如何续上
 
-
-```javascript
-1. item
-    1. item
-    2. item
-2. item
-
-    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了
-
-3. item
-4. item
-```
 
 1. item
     1. item
