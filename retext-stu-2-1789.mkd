@@ -49,7 +49,7 @@
 
 - 外部链接：[佛学视频](http://www.fxsp.org/)
 - 内部链接1，链接仓库其他的文件：[README](README.mkd)
-- 内部链接2，链接本文档的其他部分：[代码块](retext-stu-2-1789.mkd#7.代码块)
+- 内部链接2，链接本文档的其他部分：[代码块](retext-stu-2-1789.mkd#代码块)
 
 #### 引用式链接
 
@@ -65,7 +65,7 @@
 
     ![alt](url text)，alt和text可以缺省
 
-- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
+- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
 - 本地图片，即本地自己主机的图片：![zhaojing](images/top-1485165584.jpg)
 
 #### 引用式链接
@@ -75,12 +75,6 @@
 
 ### 6.引用
 
-***编辑写法：***
-
-    > 这是一个引文。
-
-    >>> ——这是一个多重引文（在格式上可以写引文出处）。
-
 > 这是一个引文。
 
 >>> ——这是一个多重引文（在格式上可以写引文出处）。
@@ -89,21 +83,9 @@
 
 - 行内代码
 
-    ***编辑写法：***  
-    这个代码中用来声明变量是\`var a = 10\`，打印变量内容是\`consloe.log\`函数的调用。
-
 这个代码中用来声明变量是`var a = 10`，打印变量内容是`consloe.log`函数的调用。
 
 - 块式代码
-
-    ***编辑写法：***
-    
-    \`\`\`\javascript
-
-    var a=999;  
-    console.log(a);
-    
-    \`\`\`
 
 ```javascript
 
@@ -113,29 +95,12 @@ console.log(a);
 ```
 ### 8.水平分割线，用-、*、_，这三个符号，<hr> Horizontal Rule
 
-***编辑写法：***
-
-    ---，三个减号
-    ***，三个星号
-    ___，三个下划线
-
 ---
 ***
 ___
 
 
 ### 9.HTML 代码，这个需要学习一点HTML的知识
-
-***编辑写法：***
-
-```javascript
-<p align="center">
-    阿弥陀佛！
-</p>
-<p align="center">
-    <img src="images/top-1485165584.jpg">
-</p>
-```
 
 <p align="center">
 阿弥陀佛！
@@ -155,15 +120,6 @@ ___
 
 ### 11.GFM，GitHub Flvored MarkDown，GitHub特有MarkDown样式
 
-***编辑写法：***
-
-```javascript
-task
-
-- [x] item1
-- [ ] item2
-- [x] item3
-```
 task
 
 - [x] item1
@@ -172,23 +128,10 @@ task
 
 ### 12.表情符号
 
-***编辑写法：***
-
-    :emoji code:
-
 :snake:
 
 ## 总结进阶
 ### 13.混合强调样式
-
-***编辑写法：***
-
-```javascript
-- ***加粗倾斜***
-- **~~加粗删除~~**
-- *~~倾斜删除~~*
-- ***~~加粗倾斜删除~~***
-```
 
 - ***加粗倾斜***
 - **~~加粗删除~~**
@@ -198,11 +141,6 @@ task
 ### 14.图片链接
 
 基本文字链接
-
-***编辑写法：***
-
-    ![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
-    [![pic_remote]][zhaojing]
 
 ![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
 
