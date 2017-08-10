@@ -166,19 +166,22 @@ low:
 
 问题1：如何打断，这里一定要有文字段落（空行不行）才能把有序列表打断，底下的3序号就变成1了
 
-1. fdsafa
-2. jkljjlk
+1. item 1
+	1. item 1.1
+	2. item 1.2
+2. item 2
+
+
+fdsafdsafdsafdsafd
+
+fdsafdsafdsafdas
 
 
 
-fdsafdsafdasfasdfasdfdsafdas
 
 
-
-
-3. rewqrewr
-4. uioppop
-
+3. item 3
+4. item 4
 
 <!-- 以下是引用链接 -->
 [佛学视频]:http://www.fxsp.org
