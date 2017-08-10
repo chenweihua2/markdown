@@ -61,11 +61,10 @@
 ### 5.图片，这里也和链接一样，只是写法多了在句首多了一个感叹号!
 
 #### 内嵌式链接
-***编辑写法：***
 
     ![alt](url text)，alt和text可以缺省
 
-- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
+- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg zhaojing)
 - 本地图片，即本地自己主机的图片：![zhaojing](images/top-1485165584.jpg)
 
 #### 引用式链接
@@ -172,8 +171,17 @@ low:
 	2. item
 2. item
 
-	dsafadsfsda
+这里一定要有文字段落（空行不行）才能把有序列表打断，底下的3序号就变成1了
 
+3. item
+4. item
+
+1. item
+	1. item
+	2. item
+2. item
+
+	打断过后，要续上，就在这一行的开头加个Tab键或四个空格
 
 
 3. item
