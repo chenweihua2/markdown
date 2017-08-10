@@ -182,18 +182,6 @@ low:
 
 问题2：如何续上
 
-1. item
-	1. item
-	2. item
-2. item
-
-
-	打断过后，要续上，就在这一行的开头加个Tab键或四个空格
-
-
-
-3. item
-4. item
 
 <!-- 以下是引用链接 -->
 [佛学视频]:http://www.fxsp.org
