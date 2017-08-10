@@ -64,7 +64,7 @@
 
     ![alt](url text)，alt和text可以缺省
 
-- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg zhaojing)
+- 外部图片，即远程其他主机的图片：![](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
 - 本地图片，即本地自己主机的图片：![zhaojing](images/top-1485165584.jpg)
 
 #### 引用式链接
