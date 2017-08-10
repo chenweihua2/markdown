@@ -184,6 +184,7 @@ fdsafdsafdsafdas
 4. item 4
 
 <!-- 以下是引用链接 -->
+<!-- 存在几个问题，有序列表不能打断；图片链接地址后面加别名不行；文档内跳转不行-->
 [佛学视频]:http://www.fxsp.org
 [fxsp]:http://www.fxsp.org
 [README]:README.md
