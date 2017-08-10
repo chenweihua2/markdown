@@ -79,7 +79,7 @@
 
 >>> ——这是一个多重引文（在格式上可以写引文出处）。
 
-###7.代码块
+### 7.代码块
 
 - 行内代码
 
@@ -167,28 +167,15 @@ low:
 
 问题1：如何打断
 
-1. item
-    1. item
-    2. item
-2. item
+1. item1
+    1. item1
+    2. item2
+2. item2
 
-这里加段落，就可以打断了。
+dsafasdfdasfdsafaf
 
-3. item
-4. item
-
-问题2：如何续上
-
-
-1. item
-    1. item
-    2. item
-2. item
-
-    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了
-
-3. item
-4. item
+3. item3
+4. item4
 
 <!-- 以下是引用链接 -->
 [佛学视频]:http://www.fxsp.org
