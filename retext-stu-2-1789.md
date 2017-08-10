@@ -49,7 +49,7 @@
 
 - 外部链接：[佛学视频](http://www.fxsp.org/)
 - 内部链接1，链接仓库其他的文件：[README](README.mkd)
-- 内部链接2，链接本文档的其他部分：[](retext-stu-2-1789.mkd#7.代码块)
+- 内部链接2，链接本文档的其他部分：[dmk](retext-stu-2-1789.md#7.代码块)
 
 #### 引用式链接
 
@@ -193,8 +193,8 @@ low:
 <!-- 以下是引用链接 -->
 [佛学视频]:http://www.fxsp.org
 [fxsp]:http://www.fxsp.org
-[README]:README.mkd
-[代码块]:retext-stu-2-1789.mkd#7.代码块
+[README]:README.md
+[代码块]:retext-stu-2-1789.md#7.代码块
 
 [pic_local]:images/top-1485165584.jpg
 [pic_remote]:http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg
