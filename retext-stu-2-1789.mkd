@@ -52,35 +52,37 @@
     [佛学视频](http://www.fxsp.org/)
 - 外部链接：[佛学视频](http://www.fxsp.org/)
 - 内部链接1，链接仓库其他的文件：[README](README.mkd)
-- 内部链接2，链接本文档的其他部分：[]()
+- 内部链接2，链接本文档的其他部分：[代码块](retext-stu-2-1789.mkd#7.代码块)
 
 #### 引用式链接
 
 - 外部链接：[佛学视频]
-- 外部链接：[佛学视频]
+- 外部链接：[佛学视频][fxsp]
 - 内部链接1，链接仓库的其他文件：[README]
-- 内部链接2，链接本文档的其他部分：
+- 内部链接2，链接本文档的其他部分：[代码块]
 
 ### 5.图片，这里也和链接一样，只是写法多了在句首多了一个感叹号!
 
-#### 图片非引用式链接
+#### 内嵌式链接
 ***编辑写法：***
 
-    ![zhaojing_pic](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
-    ![zhaojing_pic](images/top-1485165584.jpg)
+    ![alt](url text)，alt和text可以缺省
 
-- 外部图片，即远程其他主机的图片：![zhaojing_pic](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
-- 本地图片，即本地自己主机的图片：![zhaojing_pic](images/top-1485165584.jpg)
+    ![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
+    ![zhaojing](images/top-1485165584.jpg)
 
-#### 图片引用式链接
+- 外部图片，即远程其他主机的图片：![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg 欢迎你)
+- 本地图片，即本地自己主机的图片：![zhaojing](images/top-1485165584.jpg)
+
+#### 引用式链接
 
 ***编辑写法：***
 
-    ![zhaojing_pic]
-    ![zhaojing_pic]
+    ![zhaojing][pic_remote]
+    ![zhaojing][pic_local]
 
-- 外部图片，即远程其他主机的图片：![zhaojing_pic]
-- 本地图片，即本地自己主机的图片：![zhaojing_pic]
+- 外部图片，即远程其他主机的图片：![zhaojing][pic_remote]
+- 本地图片，即本地自己主机的图片：![zhaojing][pic_local]
 
 ### 6.引用
 
@@ -218,15 +220,16 @@ task
 
 ***编辑写法：***
 
-    ![zhaojing_pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
+    ![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
+    [![pic_remote]][zhaojing]
 
-![zhaojing_pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
+![pic_remote](http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg)
 
 基本图片
 
 图片链接
 
-    ![][]
+    [![pic_remote]][zhaojing]
 
 ### 15.引用链接的问题
 
@@ -234,20 +237,20 @@ task
 
 ```javascript
 good：  
-[a]  
-[b]
+[照镜人][zhaojing]  
+[抑郁之家][zhaojing]
 
 low:  
-[a](http://www.fxsp.org/)  
-[b](http:zhaojing.ren)
+[照镜人](http:zhaojing.ren)  
+[抑郁之家](http:zhaojing.ren)
 ```
 good：  
-[a]  
-[b]
+[照镜人][zhaojing]  
+[抑郁之家][zhaojing]
 
 low:  
-[a](http://www.fxsp.org/)  
-[b](http:zhaojing.ren)
+[照镜人](http:zhaojing.ren)  
+[抑郁之家](http:zhaojing.ren)
 
 
 ### 16.多级有序列表
@@ -259,7 +262,9 @@ low:
     1. item
     2. item
 2. item
-这里加段落，就可以打断了。  
+
+这里加段落，就可以打断了。
+
 3. item
 4. item
 ```
@@ -268,7 +273,9 @@ low:
     1. item
     2. item
 2. item
-这里加段落，就可以打断了。  
+
+这里加段落，就可以打断了。
+
 3. item
 4. item
 
@@ -280,7 +287,9 @@ low:
     1. item
     2. item
 2. item
-    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了  
+
+    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了
+
 3. item
 4. item
 ```
@@ -289,6 +298,18 @@ low:
     1. item
     2. item
 2. item
-    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了  
+
+    这里加段落并在开头敲四个空格或者一个Tab，就可以续上了
+
 3. item
 4. item
+
+<!-- 以下是引用链接 -->
+[佛学视频]:http://www.fxsp.org
+[fxsp]:http://www.fxsp.org
+[README]:README.mkd
+[代码块]:retext-stu-2-1789.mkd#7.代码块
+
+[pic_local]:images/top-1485165584.jpg
+[pic_remote]:http://zhaojing.ren/content/uploadfile/201701/top-1485165584.jpg
+[zhaojing]:http://zhaojing.ren
